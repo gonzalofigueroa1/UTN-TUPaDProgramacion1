@@ -1,5 +1,3 @@
-# UTN-TUPaDProgramacion1
-
 #1
 print("Hola Mundo!")
 
