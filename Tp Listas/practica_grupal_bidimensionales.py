@@ -86,3 +86,48 @@ for i in range(n):
             fila.append(0)
     matriz_identidad.append(fila)
     print(fila)
+
+#Ejercicio 9: Matriz Identidad Inversa 
+# Crea un programa que genere una matriz identidad inversa de tamaño n. 
+# Una matriz identidad inversa es una matriz cuadrada donde los elementos de la diagonal inversa principal son 1 y el resto son 0.
+n = 3
+matriz_identidad_inversa = []
+print("matriz identidad")
+for horizontal in range(n):
+    fila = []
+    for columna in range(n):
+        if columna + horizontal == n - 1:
+            fila.append(1)
+        else:
+            fila.append(0)
+    matriz_identidad_inversa.append(fila)
+    print(fila)
+
+#Ejercicio 10: Verificar Matriz Simétrica 
+# Una matriz es simétrica si es igual a su transpuesta.
+#  Escribe un programa que verifique si una matriz es simétrica.
+matriz_simetrica = [
+    [1, 2, 3],
+    [2, 5, 6],
+    [3, 6, 9]
+]
+matriz_transpuesta = []
+for horizontal in range(len(matriz_simetrica[0])):
+    fila = []
+    for columna in range(len(matriz_simetrica)):
+        fila.append(matriz_simetrica[columna][horizontal])
+    matriz_transpuesta.append(fila)
+
+if matriz_simetrica == matriz_transpuesta:
+    print("Es una matriz simétrica")
+else:
+    print("No es una matriz simétrica")
+
+#Ejercicio 11: Rotar una Matriz 90 Grados 
+#Escribe un programa que gire una lista bidimensional (matriz) 90 grados en el sentido de las agujas del reloj.
+matriz_normal = [
+    [1,2,3]
+    [4,5,6]
+    [7,8,9]
+]
+matriz_rotada = []
