@@ -1,0 +1,5 @@
+Manzana,200,10
+Naranja,150,15
+Banana,250,20
+Pera,253,50
+
