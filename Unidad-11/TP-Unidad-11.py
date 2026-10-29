@@ -13,7 +13,6 @@ class Libro:
         self.titulo = titulo
         self.anio_publicacion = anio_publicacion
         self.autor = autor  # objeto de tipo Autor
- 
     def __str__(self):
         return (f"Libro [{self.id_libro}]: '{self.titulo}, año:({self.anio_publicacion}) - Autor: {self.autor.nombre}")
 
