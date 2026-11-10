@@ -1,0 +1,2 @@
+Juan;Gonzales;12000;8.0
+Pepe;Gutierrez;13000;9.0

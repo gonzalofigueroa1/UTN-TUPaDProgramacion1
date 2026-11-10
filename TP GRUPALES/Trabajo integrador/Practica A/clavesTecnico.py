@@ -1,0 +1,1 @@
+tuplaClavesTecnico = ("admin", "CCCDDD", 2020)
